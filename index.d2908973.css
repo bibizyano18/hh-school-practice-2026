@@ -14,8 +14,11 @@
 
 body {
   color: #333;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   font: 14px / 1.2 Arial, sans-serif;
+  display: flex;
   position: relative;
 }
 
@@ -46,6 +49,7 @@ h4 {
 }
 
 .content {
+  flex: 1 0 auto;
   padding: 0 16px;
 }
 

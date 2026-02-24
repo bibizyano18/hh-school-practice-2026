@@ -1,1 +1,168 @@
-<!DOCTYPE html><html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width"><title>HTML и CSS</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet"><link rel="stylesheet" href="index.791e44a7.css"></head><body> <header class="header"> <div class="container header__container"> <div class="header__left"> <a href="/"> <img src="hh.ef617a1c.svg"> </a> <nav class="header__nav"> <a href="/" class="header__nav-link">Одежда</a> <a href="/" class="header__nav-link">Сумки</a> <a href="/" class="header__nav-link">Аксессуары</a> <a href="/" class="header__nav-link">Офисные принадлежности</a> </nav> </div> <div class="header__right"> <button class="header__button header__button_search" aria-label="Поиск"></button> <button class="header__sign-in"> Войти </button> </div> <div class="header__buttons"> <button class="header__button header__button_search" aria-label="Поиск"> </button> <button class="header__button header__button_profile" aria-label="Профиль"> </button> <button class="header__button header__button_menu" aria-label="Меню"> </button> </div> </div> </header> <main class="container content"> <section class="catalog"> <h2>Популярные товары</h2> <div class="cards"> <div class="card"> <img class="card__img" src="product-1.83972a31.jpg" alt="Зонт"> <h4 class="card__title">Зонт</h4> <div class="card__price">1 990 ₽</div> </div> <div class="card"> <img class="card__img" src="product-2.495a6ed5.jpg" alt="Зонт"> <h4 class="card__title">Сумка</h4> <div class="card__price">1 990 ₽</div> </div> <div class="card"> <img class="card__img" src="product-3.84efa5ce.jpg" alt="Зонт"> <h4 class="card__title">Тапки</h4> <div class="card__price">1 990 ₽</div> </div> <div class="card"> <div class="card__sale"></div> <img class="card__img" src="product-4.98546329.jpg" alt="Зонт"> <h4 class="card__title">Футболка</h4> <div class="card__price"> <span class="card__price_old">690</span> 390 ₽ </div> </div> <div class="card"> <img class="card__img" src="product-1.83972a31.jpg" alt="Зонт"> <h4 class="card__title">Зонт</h4> <div class="card__price">1 990 ₽</div> </div> <div class="card"> <img class="card__img" src="product-2.495a6ed5.jpg" alt="Зонт"> <h4 class="card__title">Сумка</h4> <div class="card__price">10 990 ₽</div> </div> </div> </section> </main> <footer> <div class="footer__services_background"> <section class="container footer__services"> <div class="service"> <img src="support.e74ae42f.svg"> <p>Быстрая доставка по&nbsp;всей России</p> </div> <div class="service"> <img src="return.3c4976e7.svg"> <p>100% гарантия возврата и&nbsp;подлинность товара</p> </div> <div class="service"> <img src="delivery.4fe2acb2.svg"> <p>Круглосуточная служба&nbsp;поддержки</p> </div> </section> </div> <div class="footer__socials_background"> <section class="container footer__socials"> <div class="socials_links"> <a href="https://hh.ru"> <img src="facebook.acdf73c9.svg"> </a> <a href="https://hh.ru"> <img src="twitter.f8333234.svg"> </a> <a href="https://hh.ru"> <img src="vk.ce942721.svg"> </a> <a href="https://hh.ru"> <img src="instagram.aea28a47.svg"> </a> </div> <div class="download_links"> <a href="https://appstore.com"> <img src="app%20store.99cf7bd0.svg"> </a> <a href="https://googleplay.com"> <img src="google%20play.0706f6ab.svg"> </a> </div> <img class="gray_logo" src="hh.f6e3faef.svg"> </section> <div class="container footer_text"> <p>&copy;&nbsp;2019 Группа компаний HeadHunter<br> Сегодня на&nbsp;сайте 684&nbsp;978&nbsp;вакансий, 34&nbsp;789&nbsp;747&nbsp;резюме, 858&nbsp;923 компании и&nbsp;за&nbsp;неделю 1&nbsp;211&nbsp;363 приглашения</p> </div> </div> </footer> <div class="order-background"> <div class="order"> <form action="/" method="get"> <h4>Контактное лицо</h4> <input type="text" class="order__input" placeholder="ФИО" name="fio"> <input type="email" class="order__input" placeholder="Электронная почта" name="email"> <div> <h4>Способ получения заказа</h4> <div class="order__pickup"> <input type="radio" name="deliveryType" id="order-pickup" class="order__radio" value="pickup"> <label for="order-pickup">Самовывоз</label> <input type="radio" name="deliveryType" id="order-delivery" class="order__radio" value="delivery"> <label for="order-delivery">Доставка</label> </div> </div> <h4>Адрес</h4> <select name="city" class="select"> <option>Москва</option> <option>Вологда</option> <option>Казань</option> </select> <button type="submit" class="order__button">Оформить заказ</button> </form> </div> </div> </body></html>
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>HTML и CSS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/index.d2908973.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__left">
+                    <a href="/">
+                        <img src="/hh.0a4821ed.svg">
+                    </a>
+                    <nav class="header__nav">
+                        <a href="/" class="header__nav-link">Одежда</a>
+                        <a href="/" class="header__nav-link">Сумки</a>
+                        <a href="/" class="header__nav-link">Аксессуары</a>
+                        <a href="/" class="header__nav-link">Офисные принадлежности</a>
+                    </nav>
+                </div>
+                <div class="header__right">
+                    <button class="header__button header__button_search" aria-label="Поиск"></button>
+                    <button class="header__sign-in">
+                        Войти
+                    </button>
+                </div>
+                <div class="header__buttons">
+                    <button class="header__button header__button_search" aria-label="Поиск">
+
+                    </button>
+                    <button class="header__button header__button_profile" aria-label="Профиль">
+
+                    </button>
+                    <button class="header__button header__button_menu" aria-label="Меню">
+
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="content container">
+            <section class="catalog">
+                <h2>Популярные товары</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img class="card__img" src="/product-1.6825b34f.jpg" alt="Зонт">
+                        <h4 class="card__title">Зонт</h4>
+                        <div class="card__price">1 990 ₽</div>
+                    </div>
+                    
+                    <div class="card">
+                        <img class="card__img" src="/product-2.aa4e58e0.jpg" alt="Зонт">
+                        <h4 class="card__title">Сумка</h4>
+                        <div class="card__price">1 990 ₽</div>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="/product-3.bd94a83b.jpg" alt="Зонт">
+                        <h4 class="card__title">Тапки</h4>
+                        <div class="card__price">1 990 ₽</div>
+                    </div>
+                    <div class="card">
+                        <div class="card__sale"></div>
+                        <img class="card__img" src="/product-4.e21a8b3f.jpg" alt="Зонт">
+                        <h4 class="card__title">Футболка</h4>
+                        <div class="card__price">
+                            <span class="card__price_old">690</span>
+                            390 ₽
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="/product-1.6825b34f.jpg" alt="Зонт">
+                        <h4 class="card__title">Зонт</h4>
+                        <div class="card__price">1 990 ₽</div>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="/product-2.aa4e58e0.jpg" alt="Зонт">
+                        <h4 class="card__title">Сумка</h4>
+                        <div class="card__price">10 990 ₽</div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__services_background">
+                <section class="footer__services container">
+                    <div class="service">
+                        <img src="/support.ec83f3e6.svg">
+                        <p>Быстрая доставка по&nbsp;всей России</p>
+                    </div>
+                    <div class="service">
+                        <img src="/return.e8c0503e.svg">
+                        <p>100% гарантия возврата и&nbsp;подлинность товара</p>
+                    </div>
+                    <div class="service">
+                        <img src="/delivery.716e1712.svg">
+                        <p>Круглосуточная служба&nbsp;поддержки</p>
+                    </div>
+                </section>
+            </div>
+            <div class="footer__socials_background">
+                <section class="footer__socials container">
+                    <div class="socials_links">
+                        <a href="https://hh.ru">
+                            <img src="/facebook.c59dd3a6.svg">
+                        </a>
+                        <a href="https://hh.ru">
+                            <img src="/twitter.c822d366.svg">
+                        </a>
+                        <a href="https://hh.ru">
+                            <img src="/vk.7a38af69.svg">
+                        </a>
+                        <a href="https://hh.ru">
+                            <img src="/instagram.3d2bb9e5.svg">
+                        </a>
+                    </div>
+                    <div class="download_links">
+                        <a href="https://appstore.com">
+                            <img src="/app%20store.1a2171a6.svg">
+                        </a>
+                        <a href="https://googleplay.com">
+                            <img src="/google%20play.f15debe7.svg">
+                        </a>
+                    </div>
+                    <img class="gray_logo" src="/hh.d8cf2398.svg">
+                </section>
+                <div class="footer_text container">
+                    <p>&copy;&nbsp;2019 Группа компаний HeadHunter<br>
+Сегодня на&nbsp;сайте 684&nbsp;978&nbsp;вакансий, 
+34&nbsp;789&nbsp;747&nbsp;резюме, 858&nbsp;923 компании 
+и&nbsp;за&nbsp;неделю 1&nbsp;211&nbsp;363 приглашения</p>
+                </div>
+            </div>
+
+            
+        </footer>
+        <div class="order-background">
+            <div class="order">
+                <form action="/" method="get">
+                    <h4>Контактное лицо</h4>
+                    <input type="text" class="order__input" placeholder="ФИО" name="fio">
+                    <input type="email" class="order__input" placeholder="Электронная почта" name="email">
+                    <div>
+                        <h4>Способ получения заказа</h4>
+                        <div class="order__pickup">
+                            <input type="radio" name="deliveryType" id="order-pickup" class="order__radio" value="pickup">
+                            <label for="order-pickup">Самовывоз</label>
+                            <input type="radio" name="deliveryType" id="order-delivery" class="order__radio" value="delivery">
+                            <label for="order-delivery">Доставка</label>
+                        </div>
+                    </div>
+                    <h4>Адрес</h4>
+                    <select name="city" class="select">
+                        <option>Москва</option>
+                        <option>Вологда</option>
+                        <option>Казань</option>
+                    </select>
+
+                    <button type="submit" class="order__button">Оформить заказ</button>
+                </form>
+            </div>
+        </div>
+    <script src="/hh-school-practice-2026.3464ddca.js"></script></body>
+</html>
