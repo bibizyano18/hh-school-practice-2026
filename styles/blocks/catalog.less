@@ -21,6 +21,27 @@
         width: 100%;
     }
 
+    &__button {
+        width: 25%;
+        padding: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: #C52929;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+    }
+    &__button:hover {
+        background: #333;
+    }
+    
+    &__button:active {
+        transform: scale(0.95);
+    }
+
     &__price {
         &_old {
             position: relative;
